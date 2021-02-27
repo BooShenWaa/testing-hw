@@ -24,11 +24,7 @@ export default function MediaCard({ pic }) {
   return (
     <Card className={classes.root}>
       <CardActionArea>
-        <CardMedia
-          className={classes.media}
-          image={pic}
-          title="Contemplative Reptile"
-        />
+        <CardMedia className={classes.media} image={pic} title="Reptile" />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             Lizard
