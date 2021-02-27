@@ -2,3 +2,8 @@ p {
   color: white;
   margin-inline-end: 1rem;
 }
+
+img {
+  max-width: 125px;
+  max-height: 125px;
+}

@@ -5,9 +5,10 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import Link from "@material-ui/core/Link";
 import "./NavBar.css";
-import Button from "@material-ui/core/Button";
-import IconButton from "@material-ui/core/IconButton";
-import MenuIcon from "@material-ui/icons/Menu";
+
+// import Button from "@material-ui/core/Button";
+// import IconButton from "@material-ui/core/IconButton";
+// import MenuIcon from "@material-ui/icons/Menu";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -45,6 +46,10 @@ export default function ButtonAppBar() {
               <p>Page One</p>
             </Link>
           </Typography>
+          <img
+            src="https://www.freelogodesign.org/Content/img/logo-samples/flooop.png"
+            alt="Logo"
+          />
           {/* <Button color="inherit">Login</Button> */}
         </Toolbar>
       </AppBar>
